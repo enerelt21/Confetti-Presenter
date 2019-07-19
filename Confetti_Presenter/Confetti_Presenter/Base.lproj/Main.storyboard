@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14845" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ole-gQ-dWn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14799.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Confetti View-->
+        <scene sceneID="Rib-b3-ggv">
+            <objects>
+                <viewController title="Confetti View" id="ole-gQ-dWn" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y4a-00-1ZO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qaV-yW-8XF">
+                                <rect key="frame" x="150" y="414" width="114" height="30"/>
+                                <state key="normal" title="Pop the confetti!"/>
+                                <connections>
+                                    <action selector="popConfetti:" destination="ole-gQ-dWn" eventType="touchUpInside" id="0xQ-Um-H2a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NRB-PJ-eJG" firstAttribute="trailing" secondItem="qaV-yW-8XF" secondAttribute="trailing" constant="150" id="AJI-hQ-9yv"/>
+                            <constraint firstItem="qaV-yW-8XF" firstAttribute="top" secondItem="NRB-PJ-eJG" secondAttribute="top" constant="370" id="HAB-Mo-mS1"/>
+                            <constraint firstItem="NRB-PJ-eJG" firstAttribute="bottom" secondItem="qaV-yW-8XF" secondAttribute="bottom" constant="418" id="lnQ-ub-yAo"/>
+                            <constraint firstItem="qaV-yW-8XF" firstAttribute="leading" secondItem="NRB-PJ-eJG" secondAttribute="leading" constant="150" id="qxm-fK-x4O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NRB-PJ-eJG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCe-pi-Aeb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="-556.47321428571422"/>
+        </scene>
+    </scenes>
+</document>

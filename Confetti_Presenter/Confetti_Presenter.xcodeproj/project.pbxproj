@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538E4B1D22D8EF8800308A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E4B1C22D8EF8800308A3F /* AppDelegate.m */; };
+		538E4B2022D8EF8800308A3F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E4B1F22D8EF8800308A3F /* SceneDelegate.m */; };
+		538E4B2622D8EF8800308A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538E4B2422D8EF8800308A3F /* Main.storyboard */; };
+		538E4B2822D8EF8900308A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538E4B2722D8EF8900308A3F /* Assets.xcassets */; };
+		538E4B2B22D8EF8900308A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538E4B2922D8EF8900308A3F /* LaunchScreen.storyboard */; };
+		538E4B2E22D8EF8900308A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E4B2D22D8EF8900308A3F /* main.m */; };
+		538E4B5122DCC77500308A3F /* png_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 538E4B5022DCC77500308A3F /* png_cross.png */; };
+		53B1023622E220F900662C76 /* ConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B1023522E220F900662C76 /* ConfettiView.m */; };
+		53B1023822E2216800662C76 /* confetti_pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023722E2216700662C76 /* confetti_pop.mp3 */; };
+		53B1023E22E221CA00662C76 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023922E221CA00662C76 /* confetti.png */; };
+		53B1023F22E221CA00662C76 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023A22E221CA00662C76 /* diamond.png */; };
+		53B1024022E221CA00662C76 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023B22E221CA00662C76 /* star.png */; };
+		53B1024122E221CA00662C76 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023C22E221CA00662C76 /* triangle.png */; };
+		53B1024222E221CA00662C76 /* congratz.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B1023D22E221CA00662C76 /* congratz.png */; };
+		53B1024522E228C400662C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B1024422E228C400662C76 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		538E4B1822D8EF8800308A3F /* Confetti_Presenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Confetti_Presenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538E4B1B22D8EF8800308A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		538E4B1C22D8EF8800308A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		538E4B1E22D8EF8800308A3F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		538E4B1F22D8EF8800308A3F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		538E4B2522D8EF8800308A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538E4B2722D8EF8900308A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538E4B2A22D8EF8900308A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538E4B2C22D8EF8900308A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538E4B2D22D8EF8900308A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		538E4B5022DCC77500308A3F /* png_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png_cross.png; sourceTree = "<group>"; };
+		53B1023422E220F900662C76 /* ConfettiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfettiView.h; sourceTree = "<group>"; };
+		53B1023522E220F900662C76 /* ConfettiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfettiView.m; sourceTree = "<group>"; };
+		53B1023722E2216700662C76 /* confetti_pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = confetti_pop.mp3; sourceTree = "<group>"; };
+		53B1023922E221CA00662C76 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confetti.png; path = "../../../RealBibleNavigator/Bible Navigator/Bible Navigator/confetti.png"; sourceTree = "<group>"; };
+		53B1023A22E221CA00662C76 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diamond.png; path = "../../../RealBibleNavigator/Bible Navigator/Bible Navigator/diamond.png"; sourceTree = "<group>"; };
+		53B1023B22E221CA00662C76 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "../../../RealBibleNavigator/Bible Navigator/Bible Navigator/star.png"; sourceTree = "<group>"; };
+		53B1023C22E221CA00662C76 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle.png; path = "../../../RealBibleNavigator/Bible Navigator/Bible Navigator/triangle.png"; sourceTree = "<group>"; };
+		53B1023D22E221CA00662C76 /* congratz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = congratz.png; path = "../../../RealBibleNavigator/Bible Navigator/Bible Navigator/congratz.png"; sourceTree = "<group>"; };
+		53B1024322E228C400662C76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53B1024422E228C400662C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538E4B1522D8EF8800308A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538E4B0F22D8EF8800308A3F = {
+			isa = PBXGroup;
+			children = (
+				538E4B1A22D8EF8800308A3F /* Confetti_Presenter */,
+				538E4B1922D8EF8800308A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538E4B1922D8EF8800308A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538E4B1822D8EF8800308A3F /* Confetti_Presenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538E4B1A22D8EF8800308A3F /* Confetti_Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				538E4B1B22D8EF8800308A3F /* AppDelegate.h */,
+				538E4B1C22D8EF8800308A3F /* AppDelegate.m */,
+				53B1024322E228C400662C76 /* ViewController.h */,
+				53B1024422E228C400662C76 /* ViewController.m */,
+				538E4B1E22D8EF8800308A3F /* SceneDelegate.h */,
+				538E4B5022DCC77500308A3F /* png_cross.png */,
+				53B1023422E220F900662C76 /* ConfettiView.h */,
+				53B1023522E220F900662C76 /* ConfettiView.m */,
+				53B1023722E2216700662C76 /* confetti_pop.mp3 */,
+				53B1023922E221CA00662C76 /* confetti.png */,
+				53B1023D22E221CA00662C76 /* congratz.png */,
+				53B1023A22E221CA00662C76 /* diamond.png */,
+				53B1023B22E221CA00662C76 /* star.png */,
+				53B1023C22E221CA00662C76 /* triangle.png */,
+				538E4B1F22D8EF8800308A3F /* SceneDelegate.m */,
+				538E4B2422D8EF8800308A3F /* Main.storyboard */,
+				538E4B2722D8EF8900308A3F /* Assets.xcassets */,
+				538E4B2922D8EF8900308A3F /* LaunchScreen.storyboard */,
+				538E4B2C22D8EF8900308A3F /* Info.plist */,
+				538E4B2D22D8EF8900308A3F /* main.m */,
+			);
+			path = Confetti_Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538E4B1722D8EF8800308A3F /* Confetti_Presenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538E4B3122D8EF8900308A3F /* Build configuration list for PBXNativeTarget "Confetti_Presenter" */;
+			buildPhases = (
+				538E4B1422D8EF8800308A3F /* Sources */,
+				538E4B1522D8EF8800308A3F /* Frameworks */,
+				538E4B1622D8EF8800308A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Confetti_Presenter;
+			productName = Confetti_Presenter;
+			productReference = 538E4B1822D8EF8800308A3F /* Confetti_Presenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538E4B1022D8EF8800308A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Bat-Erdene, Ene";
+				TargetAttributes = {
+					538E4B1722D8EF8800308A3F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 538E4B1322D8EF8800308A3F /* Build configuration list for PBXProject "Confetti_Presenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538E4B0F22D8EF8800308A3F;
+			productRefGroup = 538E4B1922D8EF8800308A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538E4B1722D8EF8800308A3F /* Confetti_Presenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538E4B1622D8EF8800308A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538E4B2B22D8EF8900308A3F /* LaunchScreen.storyboard in Resources */,
+				53B1023822E2216800662C76 /* confetti_pop.mp3 in Resources */,
+				538E4B2822D8EF8900308A3F /* Assets.xcassets in Resources */,
+				53B1024222E221CA00662C76 /* congratz.png in Resources */,
+				538E4B5122DCC77500308A3F /* png_cross.png in Resources */,
+				53B1024122E221CA00662C76 /* triangle.png in Resources */,
+				53B1023F22E221CA00662C76 /* diamond.png in Resources */,
+				53B1024022E221CA00662C76 /* star.png in Resources */,
+				538E4B2622D8EF8800308A3F /* Main.storyboard in Resources */,
+				53B1023E22E221CA00662C76 /* confetti.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538E4B1422D8EF8800308A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B1023622E220F900662C76 /* ConfettiView.m in Sources */,
+				538E4B1D22D8EF8800308A3F /* AppDelegate.m in Sources */,
+				538E4B2E22D8EF8900308A3F /* main.m in Sources */,
+				538E4B2022D8EF8800308A3F /* SceneDelegate.m in Sources */,
+				53B1024522E228C400662C76 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		538E4B2422D8EF8800308A3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538E4B2522D8EF8800308A3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		538E4B2922D8EF8900308A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538E4B2A22D8EF8900308A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538E4B2F22D8EF8900308A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		538E4B3022D8EF8900308A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538E4B3222D8EF8900308A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Confetti_Presenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Confetti-Presenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538E4B3322D8EF8900308A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Confetti_Presenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Confetti-Presenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538E4B1322D8EF8800308A3F /* Build configuration list for PBXProject "Confetti_Presenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538E4B2F22D8EF8900308A3F /* Debug */,
+				538E4B3022D8EF8900308A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538E4B3122D8EF8900308A3F /* Build configuration list for PBXNativeTarget "Confetti_Presenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538E4B3222D8EF8900308A3F /* Debug */,
+				538E4B3322D8EF8900308A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538E4B1022D8EF8800308A3F /* Project object */;
+}

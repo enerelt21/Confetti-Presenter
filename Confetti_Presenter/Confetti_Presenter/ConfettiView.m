@@ -141,7 +141,7 @@
 //                   forKeyPath:@"emitterCells.triangle.birthRate"];
 //            [emitter setValue:[NSNumber numberWithFloat:0.0]
 //                   forKeyPath:@"emitterCells.star.birthRate"];
-            [self.layer addSublayer:bottomEmitter];
+            [self.layer addSublayer:self->bottomEmitter];
 //            [smallEmitter setLifetime:0.0];
 //            [smallEmitter setValue:[NSNumber numberWithFloat:0.0]
 //                   forKeyPath:@"emitterCells.confetti.birthRate"];
